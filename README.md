@@ -68,7 +68,7 @@ To run this bot you will need **server** with 🐳docker installed. I use
 Database -> require auth -> press 
 <img src="http://www.eternaljudgment.com/wp-content/uploads/2016/07/three-vertical-dots-1.png" width="22"> -> *Import
 from JSON file* -> upload realtime-database.json file
-12. In src/main/java/com/popov/homeworkbotserver/Main.java replace *<PROJECT-ID>* with firebase project id (get from 
+12. In src/main/java/com/popov/homeworkbotserver/Main.java replace *<<PROJECT-ID>>* with firebase project id (get from 
 serverSecret.json file, "project_id":<PROJECT-ID>)
 13. 🐳Run in *root* of the project
     ```bash
