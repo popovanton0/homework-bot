@@ -76,3 +76,10 @@ serverSecret.json file, "project_id":<PROJECT-ID>)
     docker build -t popovanton0/homework-bot
     docker run -d -e DB_BRANCH='production' popovanton0/homework-bot
     ```
+    
+## RKN Blocks
+Because of the recent 
+[RKN blocks](https://www.bleepingcomputer.com/news/government/russia-bans-18-million-amazon-and-google-ips-in-attempt-to-block-telegram/), 
+deploying Firebase Cloud Functions and using Realtime Database in Firebase Admin SDK for Java is unavailable. 
+But access to running Firebase Cloud Functions itself is available right now. So only solution is to place server 
+outside Russia or use proxies (I tried but no success).
