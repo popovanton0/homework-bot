@@ -1,0 +1,3 @@
+google-cloud-functions/functions/index.js
+serverSecret.json
+src/main/java/com/popov/homeworkbotserver/functions/EasterEgg1Function.java
