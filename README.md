@@ -38,7 +38,7 @@ To run this bot you will need **server** with 🐳docker installed. I use
 2. Create Firebase project: [tutorial](https://firebase.google.com/docs/admin/setup#add_firebase_to_your_app) 
 3. Replace `serverSecret.json` with *JSON file containing your service account's credentials* and rename it to 
 *serverSecret.json*
-4. Create group in VK
+4. Create a group in VK
     1. Go to <img src="https://image.freepik.com/free-icon/more-button-interface-symbol-of-three-horizontal-aligned-dots_318-69928.jpg" width="22">
     -> Group manage -> Settings -> API
     2. Create `access key` with access to messages of the group
@@ -61,7 +61,7 @@ To run this bot you will need **server** with 🐳docker installed. I use
 10. Open realtime-database.json file and:
     1. Replace `accessToken` value with VK access key from 4.2
     2. Add your schedule (example is there, you only need to change it)
-    3. Add subjects (value of subject is regexp, witch bot looking for in user messages)
+    3. Add subjects (value of subject is regexp, which bot looking for in user messages)
     4. Add your time schedule (special is schedule for Saturday)
     5. Duplicate this changes to test branch 
 11. Go to https://console.firebase.google.com , choose your project, click Develop -> Database -> Realtime 
