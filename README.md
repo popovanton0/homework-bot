@@ -61,7 +61,7 @@ To run this bot you will need **server** with 🐳docker installed. I use
 10. Open realtime-database.json file and:
     1. Replace `accessToken` value with VK access key from 4.2
     2. Add your schedule (example is there, you only need to change it)
-    3. Add subjects (value of subject is regexp, which bot looking for in user messages)
+    3. Add subjects (value of subject is a regexp, for which the bot looks in user messages)
     4. Add your time schedule (special is schedule for Saturday)
     5. Duplicate this changes to test branch 
 11. Go to https://console.firebase.google.com , choose your project, click Develop -> Database -> Realtime 
