@@ -1,5 +1,7 @@
 # Homework Bot
 
+[![Project Status: Unsupported – The project has reached a stable, usable state but the author(s) have ceased all work on it. A new maintainer may be desired.](https://www.repostatus.org/badges/latest/unsupported.svg)](https://www.repostatus.org/#unsupported)
+
 Homework bot uses VK bot api and allows users to collaboratively manage homework of single class. For now it supports 
 **only** russian language. Pupils can add and get homework. Added homework is visible to all pupils. One instance is 
 intended for **one** class. 
